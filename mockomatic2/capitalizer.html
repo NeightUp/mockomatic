@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="A modern solution to eliminate tedious keypresses for the busy internet memer or social media roaster">
+		<meta name="author" content="In8 Design">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>CAPITALIZER</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<a href="index.html">MoCK-o-MAtiC</a>
+				<a href="capitalizer.html">CAPITALIZER</a>
+				<a href="donate.html">Donate Maybe?</a>
+			</nav>
+		</header>
+
+		<main id="main">
+			<p>Are you so <abbr title="obnoxious">mad</abbr> you could just <br>TYPE A WHOLE BUNCH OF TEXT IN ALL CAPS<br> to tell them all exactly how you feel?</p>
+			<p>Already perfectly formulate your words perfectly,<br> but didn't realize until after the fact that the entire comment <br>would be so much <abbr title="rantier">more effective</abbr> IN ALL CAPS?</p>
+			<p>Boy have we got the <abbr title="In this case, you might be the tool...">tool</abbr> for you!</p>
+			<h1>Introducing the CAPITALIZER!</h1>
+			<h2>A quick and painless way to convert your inside voice to raw, <br>screaming rage in text form!</h2>
+			<p>(That'll show 'em... That'll show 'em all...)</p>
+			<h3>Just type or paste the text you want to shoutify into the quiet, unassuming box below:</h3>
+			<form name="inputForm" method="post">
+				<textarea id="inputFormTextArea" placeholder="Words go here..."></textarea>
+				<br>
+				<input type="button" class="button" id="clearButton" onclick="clearText()" value="Clear">
+				<h3>Hit the GIMME IT button</h3>
+				<input type="button" class="button" id="submitButton" onclick="getFormText('caps')" value="GIMME IT">
+			</form>
+			<h3>And let the CAPITALIZER do the rest!</h3>
+		</main>
+
+		<footer>
+			<p>Thank you for using the CAPITALIZER!<br>Make sure to give us a SHOUT OUT to all of your friend</p>
+		</footer>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
